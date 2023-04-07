@@ -11,12 +11,12 @@ import dotenv
 
 dotenv.load_dotenv()
 
+# Set up logging
+logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
+
 # Set up credentials for the Google Drive API
 api_key = os.getenv('api_key')
 service = build('drive', 'v3', developerKey=api_key)
-
-# credentials = Credentials.from_service_account_file('/home/chad/Desktop/terminalapp/credentials/keyfile.json')
-# service = build('drive', 'v3', credentials=credentials)
 
 # Define a function to upload a file to Google Docs
 def upload_to_google_docs(file_path):
@@ -41,7 +41,7 @@ class MyHandler(FileSystemEventHandler):
             upload_to_google_docs(file_path)
 
 # Set up a watchdog Observer to monitor the folder for file creation events
-folder_to_monitor = '/home/chad/Desktop/terminalapp/content'
+folder_to_monitor = '/home/chad/Desktop/terminalapp/code/terminalApp/content'
 
 event_handler = MyHandler()
 observer = Observer()
@@ -52,8 +52,11 @@ logging.info(f'Monitoring folder "{folder_to_monitor}" for new files')
 
 try:
     while True:
+        logging.debug('Waiting for new files...')
         time.sleep(1)
 except KeyboardInterrupt:
+    logging.info('Stopping observer...')
     observer.stop()
 
 observer.join()
+logging.info('Script completed.')
