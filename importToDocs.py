@@ -15,18 +15,19 @@ dotenv.load_dotenv()
 logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
 
 # Set up credentials for the Google Drive API
-api_key = os.getenv('api_key')
-service = build('drive', 'v3', developerKey=api_key)
+credentials = Credentials.from_service_account_file('/home/chad/Desktop/terminalapp/code/terminalApp/secrets/keyfile.json')
+service = build('drive', 'v3', credentials=credentials)
+# api_key = os.getenv('api_key')
+# service = build('drive', 'v3', developerKey=api_key)
 
-# Define a function to upload a file to Google Docs
+# Define a function to upload the text contents of a file to Google Docs
 def upload_to_google_docs(file_path):
     file_name = os.path.basename(file_path)
-    file_mime_type = 'application/vnd.google-apps.document'
 
     with io.open(file_path, 'r', encoding='utf8') as f:
         file_contents = f.read()
 
-    file_metadata = {'name': file_name, 'mimeType': file_mime_type}
+    file_metadata = {'name': file_name, 'mimeType': 'application/vnd.google-apps.document'}
     media = io.BytesIO(file_contents.encode('utf-8'))
     file = service.files().create(body=file_metadata, media_body=media, fields='id').execute()
 
