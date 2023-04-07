@@ -12,8 +12,11 @@ import dotenv
 dotenv.load_dotenv()
 
 # Set up credentials for the Google Drive API
-credentials = Credentials.from_service_account_file('/home/chad/Desktop/terminalapp/credentials/keyfile.json')
-service = build('drive', 'v3', credentials=credentials)
+api_key = os.getenv('api_key')
+service = build('drive', 'v3', developerKey=api_key)
+
+# credentials = Credentials.from_service_account_file('/home/chad/Desktop/terminalapp/credentials/keyfile.json')
+# service = build('drive', 'v3', credentials=credentials)
 
 # Define a function to upload a file to Google Docs
 def upload_to_google_docs(file_path):
