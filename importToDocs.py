@@ -3,7 +3,7 @@ import time
 import logging
 from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
-from google.oauth2.credentials import Credentials
+from google.oauth2 import service_account
 from googleapiclient.discovery import build
 from googleapiclient.errors import HttpError
 import io
@@ -15,10 +15,9 @@ dotenv.load_dotenv()
 logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
 
 # Set up credentials for the Google Drive API
-credentials = Credentials.from_service_account_file('/home/chad/Desktop/terminalapp/code/terminalApp/secrets/keyfile.json')
+creds_file = '/home/chad/Desktop/terminalapp/code/terminalApp/secrets/keyfile.json'
+credentials = service_account.Credentials.from_service_account_file(creds_file)
 service = build('drive', 'v3', credentials=credentials)
-# api_key = os.getenv('api_key')
-# service = build('drive', 'v3', developerKey=api_key)
 
 # Define a function to upload the text contents of a file to Google Docs
 def upload_to_google_docs(file_path):
