@@ -1,0 +1,30 @@
+Script started on 2023-04-06 15:00:22-04:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="80" LINES="24"]
+[?2004h]0;root@chad-ubuntu22: /home/chad/Desktop/terminalapproot@chad-ubuntu22:/home/chad/Desktop/terminalapp# script.exe
+[?2004lscript.exe: command not found
+[?2004h]0;root@chad-ubuntu22: /home/chad/Desktop/terminalapproot@chad-ubuntu22:/home/chad/Desktop/terminalapp# script -a Shadi.txt
+[?2004lScript started, output log file is 'Shadi.txt'.
+[?2004h]0;root@chad-ubuntu22: /home/chad/Desktop/terminalapproot@chad-ubuntu22:/home/chad/Desktop/terminalapp# what[K[K[K[Ksy[Kudo su
+[?2004l[?2004h]0;root@chad-ubuntu22: /home/chad/Desktop/terminalapproot@chad-ubuntu22:/home/chad/Desktop/terminalapp# love
+[?2004lCommand 'love' not found, but can be installed with:
+snap install love  # version 11.2+pkg-d332, or
+apt  install love  # version 11.3-1
+See 'snap info love' for additional versions.
+[?2004h]0;root@chad-ubuntu22: /home/chad/Desktop/terminalapproot@chad-ubuntu22:/home/chad/Desktop/terminalapp# live
+[?2004lCommand 'live' not found, did you mean:
+  command 'love' from snap love (11.2+pkg-d332)
+  command 'love' from deb love (11.3-1)
+  command 'lives' from deb lives (3.0.2-1.1ubuntu1)
+  command 'jive' from deb filters (2.55-3build1)
+  command 'lie' from deb lie (2.2.2+dfsg-3build1)
+See 'snap info <snapname>' for additional versions.
+[?2004h]0;root@chad-ubuntu22: /home/chad/Desktop/terminalapproot@chad-ubuntu22:/home/chad/Desktop/terminalapp# lauig[K[Kght
+[?2004llaught: command not found
+[?2004h]0;root@chad-ubuntu22: /home/chad/Desktop/terminalapproot@chad-ubuntu22:/home/chad/Desktop/terminalapp# exit
+[?2004lexit
+[?2004h]0;root@chad-ubuntu22: /home/chad/Desktop/terminalapproot@chad-ubuntu22:/home/chad/Desktop/terminalapp# exit
+[?2004lexit
+Script done.
+[?2004h]0;root@chad-ubuntu22: /home/chad/Desktop/terminalapproot@chad-ubuntu22:/home/chad/Desktop/terminalapp# exit
+[?2004lexit
+
+Script done on 2023-04-06 15:01:04-04:00 [COMMAND_EXIT_CODE="0"]

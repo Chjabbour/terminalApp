@@ -1,0 +1,17 @@
+Script started on 2023-04-06 14:58:56-04:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="127" LINES="33"]
+[?2004h]0;root@chad-ubuntu22: /home/chad/Desktop/terminalapproot@chad-ubuntu22:/home/chad/Desktop/terminalapp# what to say
+[?2004lCommand 'what' not found, did you mean:
+  command 'wcat' from deb sac (1.9b5-3build1)
+  command 'wham' from deb wham-align (0.1.5-8)
+  command 'phat' from deb phat-utils (1.6-2build2)
+  command 'chat' from deb ppp (2.4.9-1+1ubuntu3)
+  command 'jhat' from deb openjdk-8-jdk-headless (8u362-ga-0ubuntu1~22.04)
+Try: apt install <deb name>
+[?2004h]0;root@chad-ubuntu22: /home/chad/Desktop/terminalapproot@chad-ubuntu22:/home/chad/Desktop/terminalapp# i have nothing to say\
+[?2004l[?2004h> ^C[?2004l[?2004h[?2004l
+[?2004h]0;root@chad-ubuntu22: /home/chad/Desktop/terminalapproot@chad-ubuntu22:/home/chad/Desktop/terminalapp# i love you
+[?2004li: command not found
+[?2004h]0;root@chad-ubuntu22: /home/chad/Desktop/terminalapproot@chad-ubuntu22:/home/chad/Desktop/terminalapp# exit
+[?2004lexit
+
+Script done on 2023-04-06 14:59:17-04:00 [COMMAND_EXIT_CODE="127"]
