@@ -1,0 +1,3 @@
+help me
+
+chad@chad-ubuntu22:~/Desktop/terminalapp/scripts$ python3 upload_txt_to_google_docs.py shadi.txt 
