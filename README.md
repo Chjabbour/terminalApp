@@ -1,11 +1,19 @@
 # terminalApp
 
+## This app will ask you to sign in to your google docs account
+
+
+
+
+
+
+
 # TO DO:
-## Change text format to block of code format
-### With Black background
+1. Change text format to block of code format
+    - With Black background
 
-## Change upload file method to upload all new files in the directory
+2. Change upload file method to upload all new files in the directory
 
-## Create a directory for the files in google docs
+3. Create a directory for the files in google docs
 
-## create the script that logs out all terminal input of a session to the directory as a file 
+4. create the script that logs out all terminal input of a session to the directory as a file 
