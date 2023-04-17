@@ -2,10 +2,7 @@
 
 ## This app will ask you to sign in to your google docs account
 
-
-
-
-
+## It will create a document everytime you start a terminal session. Once the terminal session is ended. All the contents of the terminal session wil be saved to that document. There will also be a summary of what the user did in the session at the top of the document.
 
 
 # TO DO:
