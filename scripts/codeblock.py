@@ -53,15 +53,6 @@ def upload_txt_to_google_docs(txt_file_path):
 
     return file
 
-def execute_apps_script(function_name, parameters, credentials):
-    script_id = '1e0Ejjm9DfhIHM2nAoFdCVyC-yyE2Q9fOdUUaAHaVYKQ0X_0q9u3jUmGc'
-    service = build('script', 'v1', credentials=credentials)
-    request = {
-        'function': function_name,
-        'parameters': parameters
-    }
-    response = service.scripts().run(body=request, scriptId=script_id).execute()
-    return response
 
 def format_document_as_code_block(doc_id, credentials):
     docs_service = build('docs', 'v1', credentials=credentials)
@@ -99,67 +90,14 @@ def format_document_as_code_block(doc_id, credentials):
                 },
                 'fields': 'weightedFontFamily,foregroundColor,baselineOffset,bold,italic,strikethrough,underline'
             }
-        },
-        {
-            'updateParagraphStyle': {
-                'range': {
-                    'startIndex': 1,
-                    'endIndex': doc_len
-                },
-                'paragraphStyle': {
-                    'namedStyleType': 'NORMAL_TEXT',
-                    'alignment': 'START',
-                    'direction': 'LEFT_TO_RIGHT',
-                    'lineSpacing': {
-                        'mode': 'FIXED',
-                        'fixed': {
-                            'magnitude': 14,  # Adjust line spacing as desired
-                            'unit': 'PT'
-                        }
-                    },
-                    'spaceAbove': {
-                        'magnitude': 0,
-                        'unit': 'PT'
-                    },
-                    'spaceBelow': {
-                        'magnitude': 0,
-                        'unit': 'PT'
-                    },
-                    'indentFirstLine': {
-                        'magnitude': 0,
-                        'unit': 'PT'
-                    },
-                    'indentStart': {
-                        'magnitude': 20,  # Adjust padding as desired
-                        'unit': 'PT'
-                    },
-                    'indentEnd': {
-                        'magnitude': 20,  # Adjust padding as desired
-                        'unit': 'PT'
-                    },
-                    'shading': {
-                        'backgroundColor': {
-                            'color': {
-                                'rgbColor': {
-                                    'red': 0.13,
-                                    'green': 0.13,
-                                    'blue': 0.13
-                                }
-                            }
-                        }
-                    }
-                },
-                'fields': 'namedStyleType,alignment,direction,lineSpacing,spaceAbove,spaceBelow,indentFirstLine,indentStart,indentEnd,shading'
-            }
         }
     ]
 
-    # Insert newline characters
-    for i in range(newline_count):
+    for index in range(1, doc_len, 1):
         requests.append({
             'insertText': {
                 'location': {
-                    'index': 1
+                    'index': index
                 },
                 'text': '\n'
             }
@@ -170,7 +108,6 @@ def format_document_as_code_block(doc_id, credentials):
     }
     response = docs_service.documents().batchUpdate(documentId=doc_id, body=body).execute()
     return response
-
 
 if __name__ == '__main__':
     if len(sys.argv) != 2:
@@ -183,3 +120,4 @@ if __name__ == '__main__':
         sys.exit(1)
 
     upload_txt_to_google_docs(txt_file_path)
+
