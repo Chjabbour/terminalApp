@@ -1,12 +1,14 @@
-Script started on 2023-04-17 15:38:04-04:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="204" LINES="55"]
-lsclearexit
-Script done on 2023-04-17 15:38:08-04:00 [COMMAND_EXIT_CODE="0"]
-Script started on 2023-04-17 15:38:35-04:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="204" LINES="55"]
+Script started on 2023-04-17 15:50:43-04:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="80" LINES="24"]
 Failure: No such entity
 [?2004h]0;chad@chad-ubuntu22: ~/Desktop/terminalapp/files[01;32mchad@chad-ubuntu22[00m:[01;34m~/Desktop/terminalapp/files[00m$ ls
-[?2004lapple.txt  Google.txt  help.txt  Shadi.txt  typescript  typescript.txt
+[?2004l apple.txt     terminal_log.txt
+ Google.txt   'Terminal Session 15-50-43 17-04-2023.txt'
+ help.txt     'Terminal Session17-04-2023 15-49-50.txt'
+ once.txt     'Terminal Session2023-04-17 15-47-02.txt'
+ samurai.txt   typescript
+ Shadi.txt     typescript.txt
 [?2004h]0;chad@chad-ubuntu22: ~/Desktop/terminalapp/files[01;32mchad@chad-ubuntu22[00m:[01;34m~/Desktop/terminalapp/files[00m$ clear
 [?2004l[H[2J[3J[?2004h]0;chad@chad-ubuntu22: ~/Desktop/terminalapp/files[01;32mchad@chad-ubuntu22[00m:[01;34m~/Desktop/terminalapp/files[00m$ exit
 [?2004lexit
 
-Script done on 2023-04-17 15:38:38-04:00 [COMMAND_EXIT_CODE="0"]
+Script done on 2023-04-17 15:50:48-04:00 [COMMAND_EXIT_CODE="0"]

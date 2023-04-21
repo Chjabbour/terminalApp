@@ -8,7 +8,6 @@ from googleapiclient.discovery import build
 from googleapiclient.errors import HttpError
 from googleapiclient.http import MediaFileUpload
 
-
 def get_credentials():
     creds = None
     token_path = 'token.pickle'
@@ -26,15 +25,38 @@ def get_credentials():
             pickle.dump(creds, token)
     return creds
 
+def create_folder_if_not_exists(drive_service, folder_name):
+    query = f"mimeType='application/vnd.google-apps.folder' and trashed = false and name='{folder_name}'"
+    results = drive_service.files().list(q=query, fields="nextPageToken, files(id, name)").execute()
+    items = results.get("files", [])
 
-def upload_txt_to_google_docs(txt_file_path):
+    if not items:
+        file_metadata = {
+            "name": folder_name,
+            "mimeType": "application/vnd.google-apps.folder"
+        }
+        folder = drive_service.files().create(body=file_metadata, fields="id").execute()
+        print(f'Folder created: "{folder.get("id")}"')
+        return folder.get("id")
+    else:
+        return items[0]["id"]
+
+def check_file_exists(drive_service, folder_id, file_name):
+    query = f"parents = '{folder_id}' and trashed = false and name = '{file_name}'"
+    results = drive_service.files().list(q=query, fields="nextPageToken, files(id, name)").execute()
+    items = results.get("files", [])
+
+    return True if items else False
+
+def upload_txt_to_google_docs(txt_file_path, folder_id):
     try:
         credentials = get_credentials()
         drive_service = build('drive', 'v3', credentials=credentials)
 
         file_metadata = {
             'name': os.path.basename(txt_file_path),
-            'mimeType': 'application/vnd.google-apps.document'
+            'mimeType': 'application/vnd.google-apps.document',
+            'parents': [folder_id]  # Set the target directory ID here
         }
         media = MediaFileUpload(txt_file_path,
                                 mimetype='text/plain',
@@ -52,7 +74,6 @@ def upload_txt_to_google_docs(txt_file_path):
         file = None
 
     return file
-
 
 def format_document_as_code_block(doc_id, credentials):
     docs_service = build('docs', 'v1', credentials=credentials)
@@ -110,14 +131,21 @@ def format_document_as_code_block(doc_id, credentials):
     return response
 
 if __name__ == '__main__':
-    if len(sys.argv) != 2:
-        print('Usage: python upload_txt_to_google_docs.py /path/to/your/file.txt')
-        sys.exit(1)
+    local_directory = '/home/chad/Desktop/code/terminalapp/files'  # Specify the local directory path here
 
-    txt_file_path = sys.argv[1]
-    if not os.path.exists(txt_file_path):
-        print(f'File not found: {txt_file_path}')
-        sys.exit(1)
+    credentials = get_credentials()
+    drive_service = build('drive', 'v3', credentials=credentials)
+    folder_name = "Terminal Logs"  # Specify the folder name here
+    folder_id = create_folder_if_not_exists(drive_service, folder_name)
 
-    upload_txt_to_google_docs(txt_file_path)
+    # Iterate over all text files in the local directory
+    for file_name in os.listdir(local_directory):
+        if file_name.endswith(".txt"):
+            txt_file_path = os.path.join(local_directory, file_name)
+
+            # Check if the file with the same name exists in Google Drive
+            if not check_file_exists(drive_service, folder_id, file_name):
+                upload_txt_to_google_docs(txt_file_path, folder_id)
+            else:
+                print(f"Skipping {file_name} as it already exists in the Google Drive folder")
 

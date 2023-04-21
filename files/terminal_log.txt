@@ -1,0 +1,20 @@
+Script started on 2023-04-17 15:44:51-04:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="204" LINES="55"]
+Failure: No such entity
+[?2004h]0;chad@chad-ubuntu22: ~/Desktop/terminalapp/files[01;32mchad@chad-ubuntu22[00m:[01;34m~/Desktop/terminalapp/files[00m$ ls
+[?2004lapple.txt  Google.txt  help.txt  once.txt  samurai.txt  Shadi.txt  terminal_log.txt  typescript  typescript.txt
+[?2004h]0;chad@chad-ubuntu22: ~/Desktop/terminalapp/files[01;32mchad@chad-ubuntu22[00m:[01;34m~/Desktop/terminalapp/files[00m$ cat terminal_log.txt 
+[?2004lScript started on 2023-04-17 15:44:51-04:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="204" LINES="55"]
+Failure: No such entity
+[?2004h]0;chad@chad-ubuntu22: ~/Desktop/terminalapp/files[01;32mchad@chad-ubuntu22[00m:[01;34m~/Desktop/terminalapp/files[00m$ ls
+[?2004lapple.txt  Google.txt  help.txt  once.txt  samurai.txt  Shadi.txt  terminal_log.txt  typescript  typescript.txt
+[?2004h]0;chad@chad-ubuntu22: ~/Desktop/terminalapp/files[01;32mchad@chad-ubuntu22[00m:[01;34m~/Desktop/terminalapp/files[00m$ cat terminal_log.txt 
+[?2004l[?2004h]0;chad@chad-ubuntu22: ~/Desktop/terminalapp/files[01;32mchad@chad-ubuntu22[00m:[01;34m~/Desktop/terminalapp/files[00m$ ls
+[?2004lapple.txt  Google.txt  help.txt  once.txt  samurai.txt  Shadi.txt  terminal_log.txt  typescript  typescript.txt
+[?2004h]0;chad@chad-ubuntu22: ~/Desktop/terminalapp/files[01;32mchad@chad-ubuntu22[00m:[01;34m~/Desktop/terminalapp/files[00m$ 
+[?2004l[?2004h]0;chad@chad-ubuntu22: ~/Desktop/terminalapp/files[01;32mchad@chad-ubuntu22[00m:[01;34m~/Desktop/terminalapp/files[00m$ sls
+[?2004lCommand 'sls' not found, but there are 19 similar ones.
+[?2004h]0;chad@chad-ubuntu22: ~/Desktop/terminalapp/files[01;32mchad@chad-ubuntu22[00m:[01;34m~/Desktop/terminalapp/files[00m$ clear
+[?2004l[H[2J[3J[?2004h]0;chad@chad-ubuntu22: ~/Desktop/terminalapp/files[01;32mchad@chad-ubuntu22[00m:[01;34m~/Desktop/terminalapp/files[00m$ exit
+[?2004lexit
+
+Script done on 2023-04-17 15:45:03-04:00 [COMMAND_EXIT_CODE="0"]

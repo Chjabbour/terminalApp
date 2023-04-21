@@ -1,0 +1,213 @@
+Script started on 2023-04-17 15:37:15-04:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="204" LINES="55"]
+Failure: No such entity
+[?2004h]0;chad@chad-ubuntu22: ~/Desktop/terminalapp/files[01;32mchad@chad-ubuntu22[00m:[01;34m~/Desktop/terminalapp/files[00m$ ls
+[?2004lapple.txt  Google.txt  help.txt  Shadi.txt  typescript  typescript.txt
+[?2004h]0;chad@chad-ubuntu22: ~/Desktop/terminalapp/files[01;32mchad@chad-ubuntu22[00m:[01;34m~/Desktop/terminalapp/files[00m$ lsscript -a text.txt[K[K[K[K[K[K[K[Kapple.txt [K
+[?2004lScript started, output log file is 'apple.txt'.
+Failure: No such entity
+[?2004h]0;chad@chad-ubuntu22: ~/Desktop/terminalapp/files[01;32mchad@chad-ubuntu22[00m:[01;34m~/Desktop/terminalapp/files[00m$ ls
+[?2004lapple.txt  Google.txt  help.txt  Shadi.txt  typescript  typescript.txt
+[?2004h]0;chad@chad-ubuntu22: ~/Desktop/terminalapp/files[01;32mchad@chad-ubuntu22[00m:[01;34m~/Desktop/terminalapp/files[00m$ pwd
+[?2004l/home/chad/Desktop/terminalapp/files
+[?2004h]0;chad@chad-ubuntu22: ~/Desktop/terminalapp/files[01;32mchad@chad-ubuntu22[00m:[01;34m~/Desktop/terminalapp/files[00m$ clear
+[?2004l[H[2J[3J[?2004h]0;chad@chad-ubuntu22: ~/Desktop/terminalapp/files[01;32mchad@chad-ubuntu22[00m:[01;34m~/Desktop/terminalapp/files[00m$ exit
+[?2004lexit
+Script done.
+[?2004h]0;chad@chad-ubuntu22: ~/Desktop/terminalapp/files[01;32mchad@chad-ubuntu22[00m:[01;34m~/Desktop/terminalapp/files[00m$ ls
+[?2004lapple.txt  Google.txt  help.txt  Shadi.txt  typescript  typescript.txt
+[?2004h]0;chad@chad-ubuntu22: ~/Desktop/terminalapp/files[01;32mchad@chad-ubuntu22[00m:[01;34m~/Desktop/terminalapp/files[00m$ cat apple.txt 
+[?2004lapples are not supportedScript started on 2023-04-17 15:37:28-04:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="204" LINES="55"]
+Failure: No such entity
+[?2004h]0;chad@chad-ubuntu22: ~/Desktop/terminalapp/files[01;32mchad@chad-ubuntu22[00m:[01;34m~/Desktop/terminalapp/files[00m$ ls
+[?2004lapple.txt  Google.txt  help.txt  Shadi.txt  typescript  typescript.txt
+[?2004h]0;chad@chad-ubuntu22: ~/Desktop/terminalapp/files[01;32mchad@chad-ubuntu22[00m:[01;34m~/Desktop/terminalapp/files[00m$ pwd
+[?2004l/home/chad/Desktop/terminalapp/files
+[?2004h]0;chad@chad-ubuntu22: ~/Desktop/terminalapp/files[01;32mchad@chad-ubuntu22[00m:[01;34m~/Desktop/terminalapp/files[00m$ clear
+[?2004l[H[2J[3J[?2004h]0;chad@chad-ubuntu22: ~/Desktop/terminalapp/files[01;32mchad@chad-ubuntu22[00m:[01;34m~/Desktop/terminalapp/files[00m$ exit
+[?2004lexit
+
+Script done on 2023-04-17 15:37:36-04:00 [COMMAND_EXIT_CODE="0"]
+[?2004h]0;chad@chad-ubuntu22: ~/Desktop/terminalapp/files[01;32mchad@chad-ubuntu22[00m:[01;34m~/Desktop/terminalapp/files[00m$ 
+[?2004l[?2004h]0;chad@chad-ubuntu22: ~/Desktop/terminalapp/files[01;32mchad@chad-ubuntu22[00m:[01;34m~/Desktop/terminalapp/files[00m$ 
+[?2004l[?2004h]0;chad@chad-ubuntu22: ~/Desktop/terminalapp/files[01;32mchad@chad-ubuntu22[00m:[01;34m~/Desktop/terminalapp/files[00m$ 
+[?2004l[?2004h]0;chad@chad-ubuntu22: ~/Desktop/terminalapp/files[01;32mchad@chad-ubuntu22[00m:[01;34m~/Desktop/terminalapp/files[00m$ clear
+[?2004l[H[2J[3J[?2004h]0;chad@chad-ubuntu22: ~/Desktop/terminalapp/files[01;32mchad@chad-ubuntu22[00m:[01;34m~/Desktop/terminalapp/files[00m$ ls
+[?2004lapple.txt  Google.txt  help.txt  Shadi.txt  typescript  typescript.txt
+[?2004h]0;chad@chad-ubuntu22: ~/Desktop/terminalapp/files[01;32mchad@chad-ubuntu22[00m:[01;34m~/Desktop/terminalapp/files[00m$ cat apple.txt 
+[?2004lapples are not supportedScript started on 2023-04-17 15:37:28-04:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="204" LINES="55"]
+Failure: No such entity
+[?2004h]0;chad@chad-ubuntu22: ~/Desktop/terminalapp/files[01;32mchad@chad-ubuntu22[00m:[01;34m~/Desktop/terminalapp/files[00m$ ls
+[?2004lapple.txt  Google.txt  help.txt  Shadi.txt  typescript  typescript.txt
+[?2004h]0;chad@chad-ubuntu22: ~/Desktop/terminalapp/files[01;32mchad@chad-ubuntu22[00m:[01;34m~/Desktop/terminalapp/files[00m$ pwd
+[?2004l/home/chad/Desktop/terminalapp/files
+[?2004h]0;chad@chad-ubuntu22: ~/Desktop/terminalapp/files[01;32mchad@chad-ubuntu22[00m:[01;34m~/Desktop/terminalapp/files[00m$ clear
+[?2004l[H[2J[3J[?2004h]0;chad@chad-ubuntu22: ~/Desktop/terminalapp/files[01;32mchad@chad-ubuntu22[00m:[01;34m~/Desktop/terminalapp/files[00m$ exit
+[?2004lexit
+
+Script done on 2023-04-17 15:37:36-04:00 [COMMAND_EXIT_CODE="0"]
+[?2004h]0;chad@chad-ubuntu22: ~/Desktop/terminalapp/files[01;32mchad@chad-ubuntu22[00m:[01;34m~/Desktop/terminalapp/files[00m$ 
+[?2004l[?2004h]0;chad@chad-ubuntu22: ~/Desktop/terminalapp/files[01;32mchad@chad-ubuntu22[00m:[01;34m~/Desktop/terminalapp/files[00m$ script -help
+[?2004l
+Usage:
+ script [options] [file]
+
+Make a typescript of a terminal session.
+
+Options:
+ -I, --log-in <file>           log stdin to file
+ -O, --log-out <file>          log stdout to file (default)
+ -B, --log-io <file>           log stdin and stdout to file
+
+ -T, --log-timing <file>       log timing information to file
+ -t[<file>], --timing[=<file>] deprecated alias to -T (default file is stderr)
+ -m, --logging-format <name>   force to 'classic' or 'advanced' format
+
+ -a, --append                  append to the log file
+ -c, --command <command>       run command rather than interactive shell
+ -e, --return                  return exit code of the child process
+ -f, --flush                   run flush after each write
+     --force                   use output file even when it is a link
+ -E, --echo <when>             echo input in session (auto, always or never)
+ -o, --output-limit <size>     terminate if output files exceed size
+ -q, --quiet                   be quiet
+
+ -h, --help                    display this help
+ -V, --version                 display version
+
+For more details see script(1).
+[?2004h]0;chad@chad-ubuntu22: ~/Desktop/terminalapp/files[01;32mchad@chad-ubuntu22[00m:[01;34m~/Desktop/terminalapp/files[00m$ script -I [K
+[?2004lscript: option requires an argument -- 'I'
+Try 'script --help' for more information.
+[?2004h]0;chad@chad-ubuntu22: ~/Desktop/terminalapp/files[01;32mchad@chad-ubuntu22[00m:[01;34m~/Desktop/terminalapp/files[00m$ script -I 
+apple.txt       Google.txt      help.txt        Shadi.txt       typescript      typescript.txt  
+]0;chad@chad-ubuntu22: ~/Desktop/terminalapp/files[01;32mchad@chad-ubuntu22[00m:[01;34m~/Desktop/terminalapp/files[00m$ script -I apple.txt [K
+[?2004lScript started, input log file is 'apple.txt'.
+Failure: No such entity
+[?2004h]0;chad@chad-ubuntu22: ~/Desktop/terminalapp/files[01;32mchad@chad-ubuntu22[00m:[01;34m~/Desktop/terminalapp/files[00m$ ls
+[?2004lapple.txt  Google.txt  help.txt  Shadi.txt  typescript  typescript.txt
+[?2004h]0;chad@chad-ubuntu22: ~/Desktop/terminalapp/files[01;32mchad@chad-ubuntu22[00m:[01;34m~/Desktop/terminalapp/files[00m$ clear
+[?2004l[H[2J[3J[?2004h]0;chad@chad-ubuntu22: ~/Desktop/terminalapp/files[01;32mchad@chad-ubuntu22[00m:[01;34m~/Desktop/terminalapp/files[00m$ exit
+[?2004lexit
+Script done.
+[?2004h]0;chad@chad-ubuntu22: ~/Desktop/terminalapp/files[01;32mchad@chad-ubuntu22[00m:[01;34m~/Desktop/terminalapp/files[00m$ ls
+[?2004lapple.txt  Google.txt  help.txt  Shadi.txt  typescript  typescript.txt
+[?2004h]0;chad@chad-ubuntu22: ~/Desktop/terminalapp/files[01;32mchad@chad-ubuntu22[00m:[01;34m~/Desktop/terminalapp/files[00m$ cat apple.txt 
+[?2004lScript started on 2023-04-17 15:38:04-04:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="204" LINES="55"]
+lsclearexit
+Script done on 2023-04-17 15:38:08-04:00 [COMMAND_EXIT_CODE="0"]
+[?2004h]0;chad@chad-ubuntu22: ~/Desktop/terminalapp/files[01;32mchad@chad-ubuntu22[00m:[01;34m~/Desktop/terminalapp/files[00m$ cat apple.txt 
+[?2004lScript started on 2023-04-17 15:38:04-04:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="204" LINES="55"]
+lsclearexit
+Script done on 2023-04-17 15:38:08-04:00 [COMMAND_EXIT_CODE="0"]
+[?2004h]0;chad@chad-ubuntu22: ~/Desktop/terminalapp/files[01;32mchad@chad-ubuntu22[00m:[01;34m~/Desktop/terminalapp/files[00m$ ls
+[?2004lapple.txt  Google.txt  help.txt  Shadi.txt  typescript  typescript.txt
+[?2004h]0;chad@chad-ubuntu22: ~/Desktop/terminalapp/files[01;32mchad@chad-ubuntu22[00m:[01;34m~/Desktop/terminalapp/files[00m$ clear
+[?2004l[H[2J[3J[?2004h]0;chad@chad-ubuntu22: ~/Desktop/terminalapp/files[01;32mchad@chad-ubuntu22[00m:[01;34m~/Desktop/terminalapp/files[00m$ script -help
+[?2004l
+Usage:
+ script [options] [file]
+
+Make a typescript of a terminal session.
+
+Options:
+ -I, --log-in <file>           log stdin to file
+ -O, --log-out <file>          log stdout to file (default)
+ -B, --log-io <file>           log stdin and stdout to file
+
+ -T, --log-timing <file>       log timing information to file
+ -t[<file>], --timing[=<file>] deprecated alias to -T (default file is stderr)
+ -m, --logging-format <name>   force to 'classic' or 'advanced' format
+
+ -a, --append                  append to the log file
+ -c, --command <command>       run command rather than interactive shell
+ -e, --return                  return exit code of the child process
+ -f, --flush                   run flush after each write
+     --force                   use output file even when it is a link
+ -E, --echo <when>             echo input in session (auto, always or never)
+ -o, --output-limit <size>     terminate if output files exceed size
+ -q, --quiet                   be quiet
+
+ -h, --help                    display this help
+ -V, --version                 display version
+
+For more details see script(1).
+[?2004h]0;chad@chad-ubuntu22: ~/Desktop/terminalapp/files[01;32mchad@chad-ubuntu22[00m:[01;34m~/Desktop/terminalapp/files[00m$ script -a apple.txt [K
+[?2004lScript started, output log file is 'apple.txt'.
+Failure: No such entity
+[?2004h]0;chad@chad-ubuntu22: ~/Desktop/terminalapp/files[01;32mchad@chad-ubuntu22[00m:[01;34m~/Desktop/terminalapp/files[00m$ ls
+[?2004lapple.txt  Google.txt  help.txt  Shadi.txt  typescript  typescript.txt
+[?2004h]0;chad@chad-ubuntu22: ~/Desktop/terminalapp/files[01;32mchad@chad-ubuntu22[00m:[01;34m~/Desktop/terminalapp/files[00m$ clear
+[?2004l[H[2J[3J[?2004h]0;chad@chad-ubuntu22: ~/Desktop/terminalapp/files[01;32mchad@chad-ubuntu22[00m:[01;34m~/Desktop/terminalapp/files[00m$ exit
+[?2004lexit
+Script done.
+[?2004h]0;chad@chad-ubuntu22: ~/Desktop/terminalapp/files[01;32mchad@chad-ubuntu22[00m:[01;34m~/Desktop/terminalapp/files[00m$ ls
+[?2004lapple.txt  Google.txt  help.txt  Shadi.txt  typescript  typescript.txt
+[?2004h]0;chad@chad-ubuntu22: ~/Desktop/terminalapp/files[01;32mchad@chad-ubuntu22[00m:[01;34m~/Desktop/terminalapp/files[00m$ cat apple.txt 
+[?2004lScript started on 2023-04-17 15:38:04-04:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="204" LINES="55"]
+lsclearexit
+Script done on 2023-04-17 15:38:08-04:00 [COMMAND_EXIT_CODE="0"]
+Script started on 2023-04-17 15:38:35-04:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="204" LINES="55"]
+Failure: No such entity
+[?2004h]0;chad@chad-ubuntu22: ~/Desktop/terminalapp/files[01;32mchad@chad-ubuntu22[00m:[01;34m~/Desktop/terminalapp/files[00m$ ls
+[?2004lapple.txt  Google.txt  help.txt  Shadi.txt  typescript  typescript.txt
+[?2004h]0;chad@chad-ubuntu22: ~/Desktop/terminalapp/files[01;32mchad@chad-ubuntu22[00m:[01;34m~/Desktop/terminalapp/files[00m$ clear
+[?2004l[H[2J[3J[?2004h]0;chad@chad-ubuntu22: ~/Desktop/terminalapp/files[01;32mchad@chad-ubuntu22[00m:[01;34m~/Desktop/terminalapp/files[00m$ exit
+[?2004lexit
+
+Script done on 2023-04-17 15:38:38-04:00 [COMMAND_EXIT_CODE="0"]
+[?2004h]0;chad@chad-ubuntu22: ~/Desktop/terminalapp/files[01;32mchad@chad-ubuntu22[00m:[01;34m~/Desktop/terminalapp/files[00m$ ls
+[?2004lapple.txt  Google.txt  help.txt  Shadi.txt  typescript  typescript.txt
+[?2004h]0;chad@chad-ubuntu22: ~/Desktop/terminalapp/files[01;32mchad@chad-ubuntu22[00m:[01;34m~/Desktop/terminalapp/files[00m$ clear
+[?2004l[H[2J[3J[?2004h]0;chad@chad-ubuntu22: ~/Desktop/terminalapp/files[01;32mchad@chad-ubuntu22[00m:[01;34m~/Desktop/terminalapp/files[00m$ script -I once.txt
+[?2004lScript started, input log file is 'once.txt'.
+Failure: No such entity
+[?2004h]0;chad@chad-ubuntu22: ~/Desktop/terminalapp/files[01;32mchad@chad-ubuntu22[00m:[01;34m~/Desktop/terminalapp/files[00m$ ls
+[?2004lapple.txt  Google.txt  help.txt  once.txt  Shadi.txt  typescript  typescript.txt
+[?2004h]0;chad@chad-ubuntu22: ~/Desktop/terminalapp/files[01;32mchad@chad-ubuntu22[00m:[01;34m~/Desktop/terminalapp/files[00m$ clear
+[?2004l[H[2J[3J[?2004h]0;chad@chad-ubuntu22: ~/Desktop/terminalapp/files[01;32mchad@chad-ubuntu22[00m:[01;34m~/Desktop/terminalapp/files[00m$ exit[K[K[K[Kls
+[?2004lapple.txt  Google.txt  help.txt  once.txt  Shadi.txt  typescript  typescript.txt
+[?2004h]0;chad@chad-ubuntu22: ~/Desktop/terminalapp/files[01;32mchad@chad-ubuntu22[00m:[01;34m~/Desktop/terminalapp/files[00m$ p[Kcat once.txt 
+[?2004l[?2004h]0;chad@chad-ubuntu22: ~/Desktop/terminalapp/files[01;32mchad@chad-ubuntu22[00m:[01;34m~/Desktop/terminalapp/files[00m$ exit
+[?2004lexit
+Script done.
+[?2004h]0;chad@chad-ubuntu22: ~/Desktop/terminalapp/files[01;32mchad@chad-ubuntu22[00m:[01;34m~/Desktop/terminalapp/files[00m$ cat once.txt 
+[?2004lScript started on 2023-04-17 15:38:51-04:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="204" LINES="55"]
+lsclearexitlspcat on	exit
+Script done on 2023-04-17 15:39:01-04:00 [COMMAND_EXIT_CODE="0"]
+[?2004h]0;chad@chad-ubuntu22: ~/Desktop/terminalapp/files[01;32mchad@chad-ubuntu22[00m:[01;34m~/Desktop/terminalapp/files[00m$ cat once.txt 
+[?2004lScript started on 2023-04-17 15:38:51-04:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="204" LINES="55"]
+lsclearexitlspcat on	exit
+Script done on 2023-04-17 15:39:01-04:00 [COMMAND_EXIT_CODE="0"]
+[?2004h]0;chad@chad-ubuntu22: ~/Desktop/terminalapp/files[01;32mchad@chad-ubuntu22[00m:[01;34m~/Desktop/terminalapp/files[00m$ script app[K[K[Ksamurai.txt
+[?2004lScript started, output log file is 'samurai.txt'.
+Failure: No such entity
+[?2004h]0;chad@chad-ubuntu22: ~/Desktop/terminalapp/files[01;32mchad@chad-ubuntu22[00m:[01;34m~/Desktop/terminalapp/files[00m$ ls
+[?2004lapple.txt  Google.txt  help.txt  once.txt  samurai.txt  Shadi.txt  typescript  typescript.txt
+[?2004h]0;chad@chad-ubuntu22: ~/Desktop/terminalapp/files[01;32mchad@chad-ubuntu22[00m:[01;34m~/Desktop/terminalapp/files[00m$ clear
+[?2004l[H[2J[3J[?2004h]0;chad@chad-ubuntu22: ~/Desktop/terminalapp/files[01;32mchad@chad-ubuntu22[00m:[01;34m~/Desktop/terminalapp/files[00m$ cat[K[K[Kcat samurai.txt 
+[?2004l[?2004h]0;chad@chad-ubuntu22: ~/Desktop/terminalapp/files[01;32mchad@chad-ubuntu22[00m:[01;34m~/Desktop/terminalapp/files[00m$ ls
+[?2004lapple.txt  Google.txt  help.txt  once.txt  samurai.txt  Shadi.txt  typescript  typescript.txt
+[?2004h]0;chad@chad-ubuntu22: ~/Desktop/terminalapp/files[01;32mchad@chad-ubuntu22[00m:[01;34m~/Desktop/terminalapp/files[00m$ clear
+[?2004l[H[2J[3J[?2004h]0;chad@chad-ubuntu22: ~/Desktop/terminalapp/files[01;32mchad@chad-ubuntu22[00m:[01;34m~/Desktop/terminalapp/files[00m$ exit
+[?2004lexit
+Script done.
+[?2004h]0;chad@chad-ubuntu22: ~/Desktop/terminalapp/files[01;32mchad@chad-ubuntu22[00m:[01;34m~/Desktop/terminalapp/files[00m$ ls
+[?2004lapple.txt  Google.txt  help.txt  once.txt  samurai.txt  Shadi.txt  typescript  typescript.txt
+[?2004h]0;chad@chad-ubuntu22: ~/Desktop/terminalapp/files[01;32mchad@chad-ubuntu22[00m:[01;34m~/Desktop/terminalapp/files[00m$ cat samurai.txt 
+[?2004lScript started on 2023-04-17 15:43:16-04:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="204" LINES="55"]
+Failure: No such entity
+[?2004h]0;chad@chad-ubuntu22: ~/Desktop/terminalapp/files[01;32mchad@chad-ubuntu22[00m:[01;34m~/Desktop/terminalapp/files[00m$ ls
+[?2004lapple.txt  Google.txt  help.txt  once.txt  samurai.txt  Shadi.txt  typescript  typescript.txt
+[?2004h]0;chad@chad-ubuntu22: ~/Desktop/terminalapp/files[01;32mchad@chad-ubuntu22[00m:[01;34m~/Desktop/terminalapp/files[00m$ clear
+[?2004l[H[2J[3J[?2004h]0;chad@chad-ubuntu22: ~/Desktop/terminalapp/files[01;32mchad@chad-ubuntu22[00m:[01;34m~/Desktop/terminalapp/files[00m$ cat[K[K[Kcat samurai.txt 
+[?2004l[?2004h]0;chad@chad-ubuntu22: ~/Desktop/terminalapp/files[01;32mchad@chad-ubuntu22[00m:[01;34m~/Desktop/terminalapp/files[00m$ ls
+[?2004lapple.txt  Google.txt  help.txt  once.txt  samurai.txt  Shadi.txt  typescript  typescript.txt
+[?2004h]0;chad@chad-ubuntu22: ~/Desktop/terminalapp/files[01;32mchad@chad-ubuntu22[00m:[01;34m~/Desktop/terminalapp/files[00m$ clear
+[?2004l[H[2J[3J[?2004h]0;chad@chad-ubuntu22: ~/Desktop/terminalapp/files[01;32mchad@chad-ubuntu22[00m:[01;34m~/Desktop/terminalapp/files[00m$ exit
+[?2004lexit
+
+Script done on 2023-04-17 15:43:25-04:00 [COMMAND_EXIT_CODE="0"]
+[?2004h]0;chad@chad-ubuntu22: ~/Desktop/terminalapp/files[01;32mchad@chad-ubuntu22[00m:[01;34m~/Desktop/terminalapp/files[00m$ exit
+[?2004lexit
+
+Script done on 2023-04-17 15:43:30-04:00 [COMMAND_EXIT_CODE="0"]
